@@ -17,7 +17,7 @@ const getUSDollar = () => {
   
   function getData (data){
     data.forEach ((country) => {
-   console.log ("Name: " + country.name.com);
+   console.log ("Name: " + country.name.common);
    console.log ("Region : "+country.region);
    console.log("Sub Region : "+country.subregion);
    console.log("Population : "+country.population);
